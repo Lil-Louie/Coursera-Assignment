@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+section{
+	position: relative;
+	padding: 15px;
+	width: 100%;
+}
+
+div{
+	position: relative;
+	background-color: gray;
+	border: 1px solid black;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.s1{
+	float: right;
+	padding: 5px;
+	margin: 0px;
+	border: 3px	solid black;
+	text-align: center;
+	font-size: 125%;
+	background-color: brown;
+}
+
+.s2{
+	float: right;
+	padding: 5px;
+	margin: 0px;
+	border: 3px	solid black;
+	text-align: center;
+	font-size: 125%;
+	background-color: yellow;
+}
+
+.s3{
+	float: right;
+	padding: 5px;
+	margin: 0px;
+	border: 3px	solid black;
+	text-align: center;
+	font-size: 125%;
+	background-color: lightseagreen;
+}
+
+.content{
+	padding: 5px;
+    background-color: gray;
+    margin: 3px;
+    clear: right;
+
+}
+
+
+/* Media Queries*/
+
+
+
+@media (min-width: 992px){
+	.column-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.column-md-6{
+		float: left;
+		width: 50%;
+		margin-left: auto;
+		margin: right;
+	}
+	.column-md-12{
+		float: left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.column-sm-12{
+		float: left;
+		width: 100%;
+	}
+}
+
+
+
